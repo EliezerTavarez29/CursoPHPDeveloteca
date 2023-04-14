@@ -3,7 +3,7 @@
 if($_POST){
 
         $txtNombre=$_POST['txtNombre'];
-        echo "Hola " . txtNombre;
+        echo "Hola " . $txtNombre;
 }
 
 ?>
